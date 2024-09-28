@@ -1,0 +1,3 @@
+Warning: foreach() argument must be of type array|object, null given in /www/wwwroot/bbs.infinitystudio.com.cn/wp-content/plugins/simple-cloudflare-turnstile/inc/turnstile.php on line 181
+Warning: foreach() argument must be of type array|object, null given in /www/wwwroot/bbs.infinitystudio.com.cn/wp-content/plugins/simple-cloudflare-turnstile/inc/turnstile.php on line 187
+错误原因：调用 foreach 循环时，传递给它的变量是 null。这意味着 $response 或 $val 可能是 null，而 foreach 循环期望的是一个数组或对象。
